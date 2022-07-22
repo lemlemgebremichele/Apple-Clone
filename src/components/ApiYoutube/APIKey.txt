@@ -1,0 +1,25 @@
+	
+    This is how you construct your YouTube API request
+    https://www.googleapis.com/youtube/v3/search?key={YOUR_API_KEY}&channelId={channel_id_here}&part=snippet,id&order=date&maxResults=10
+
+This is JSON file then use it in your react component folder. 
+
+    https://www.googleapis.com/youtube/v3
+    /search?
+    key=AIzaSyAttFk4h3Kr5GTNNk-7rqBPvuk_Z_Cv_5M&channelId=UCE_M8A5yxnLfW0KghEeajjw
+    &part=snippet,id&order=date
+    &maxResults=8
+
+
+
+
+
+    - Final API request URL 
+
+			https://www.googleapis.com/youtube/v3/search?key=AIzaSyB4xNW_TeLDTO9tKxmHQAZskoy9Na0sxR0&channelId=UCE_M8A5yxnLfW0KghEeajjw&part=snippet,id&order=date&maxResults=10
+
+            Format: 
+			https://www.googleapis.com/youtube/v3/channels?key={YOUR_API_KEY}&forUsername={CHANNEL_NAME}&part=id
+
+To get JSON file
+            https://www.googleapis.com/youtube/v3/channels?key=AIzaSyAttFk4h3Kr5GTNNk-7rqBPvuk_Z_Cv_5M&forUsername=Apple&part=id
